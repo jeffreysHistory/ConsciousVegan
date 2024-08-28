@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConsciousVegan - Interactive Learning Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>ConsciousVegan: Interactive Learning Hub</h1>
+        <p>Learn about the impact of veganism, cruelty-free certifications, and sustainability.</p>
+    </header>
+
+    <section id="learning-content">
+        <h2>Why Veganism?</h2>
+        <p>Veganism is more than just a diet; it's a lifestyle choice that has profound impacts on the environment, animal welfare, and personal health. By choosing a vegan lifestyle, you contribute to the reduction of greenhouse gas emissions, save water, and reduce deforestation. It's estimated that animal agriculture is responsible for more greenhouse gas emissions than the entire transportation sector combined. Moreover, the demand for meat and dairy products drives deforestation in the Amazon rainforest, leading to habitat destruction and biodiversity loss.</p>
+        <p>On the ethical side, veganism stands against the exploitation of animals. By avoiding animal products, you take a stand against factory farming, where animals are often subjected to cruel and inhumane conditions. Veganism also promotes better health outcomes, as plant-based diets are associated with lower risks of heart disease, diabetes, and certain cancers.</p>
+        <p>In essence, veganism is a powerful way to align your actions with your values, ensuring a healthier planet and a more compassionate world for all living beings.</p>
+
+        <div class="infographic">
+            <img src="https://i.postimg.cc/xC7SxbYz/beingachilles-conscious-veganism-575ff958-086d-4f0b-beb0-b53f7e5eaaca.png" alt="Vegan Impact Infographic">
+        </div>
+
+        <h2>Take the Quiz</h2>
+        <p>Test your knowledge on veganism and sustainability.</p>
+        <div id="quiz">
+            <p id="question">Question 1: What percentage of global greenhouse gas emissions come from animal agriculture?</p>
+            <div class="options">
+                <button onclick="checkAnswer('a')">a) 5%</button>
+                <button onclick="checkAnswer('b')">b) 18%</button>
+                <button onclick="checkAnswer('c')">c) 50%</button>
+            </div>
+            <p id="result"></p>
+            <img id="feedback-icon" src="" alt="" style="display: none;">
+            <div id="progress">
+                <p>Question <span id="question-number">1</span> of <span id="total-questions">10</span></p>
+                <div id="progress-bar"><span id="progress-fill"></span></div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 ConsciousVegan. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
